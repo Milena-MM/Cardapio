@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: AntiqueWhite;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header img {
+  width: 250px;
+}
+
+header nav {
+  width: 100%;
+  color: whitesmoke;
+  /* margin: auto; */
+}
+header nav a {
+  color: white;
+}
+
+header ul {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  font-size: large;
+  background-color: Sienna;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border: 200px;
+  border-radius: 2px;
+}
+
+.item {
+  margin: 40px;
+  border: 10px solid Gainsboro;
+  box-shadow: 5px 5px 15px BurlyWood;
+  border-radius: 15px;
+}
+
+.itens-cardapio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+}
+
+/* footer ul{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */
+
+.rodape ul {
+  background-color: #d2691e;
+  display: flex;
+  justify-content: space-around;
+
+  /* width: 100%;*/
+}
+
+footer div a {
+  color: white;
+}
+
+footer nav i {
+  color: sienna;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#redes ul {
+  background-color: #f4a460;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 50px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    color: red;
+  }
+
+  .itens-cardapio {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  header ul {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    font-size: large;
+    flex-direction: column;
+    align-items: center;
+  }
+}
